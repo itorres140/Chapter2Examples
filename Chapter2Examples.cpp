@@ -7,24 +7,19 @@
 */
 
 #include <iostream>
-#include <string>
 
 int main()
 {
     char firstinitial;
     char middleinitial;
     char lastinitial;
-    std::string firstname;
     std::cout << "Please enter the initial of your first name: ";
     std::cin >> firstinitial;
     std::cout << "Please enter the initial of your middle name: ";
     std::cin >> middleinitial;
     std::cout << "Please enter the initial of your last name: ";
     std::cin >> lastinitial;
-    std::cout << "Your initials are: " << firstinitial << middleinitial << lastinitial << std::endl;
-    std::cout << "Please enter your first name: ";
-    std::cin >> firstname;
-	std::cout << "Your first name is : " << firstname;
+    std::cout << "Your initials are: " << firstinitial << middleinitial << lastinitial
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
