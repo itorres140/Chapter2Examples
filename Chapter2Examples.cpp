@@ -19,7 +19,7 @@ int main()
     std::cin >> middleinitial;
     std::cout << "Please enter the initial of your last name: ";
     std::cin >> lastinitial;
-    std::cout << "Your initials are: " << firstinitial << middleinitial << lastinitial
+    std::cout << "Your initials are: " << firstinitial << middleinitial << lastinitial;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
